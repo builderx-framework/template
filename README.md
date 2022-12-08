@@ -37,5 +37,22 @@ Commands:
 $ node bx hello-world
 
 Hello world!
+```
 
+## list app-services command
+
+```shell
+$ node bx add:service:app-service
+
+┌─────────┬──────────────────────────────────────────┐
+│ (index) │                  Values                  │
+├─────────┼──────────────────────────────────────────┤
+│   web   │ '@builderx-framework/bx-app-service-web' │
+└─────────┴──────────────────────────────────────────┘
+```
+
+## add web app-service command
+
+```shell
+$ node bx add:service:app-service --service-name web --directory admin
 ```

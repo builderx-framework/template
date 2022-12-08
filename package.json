@@ -1,21 +1,22 @@
 {
-  "name": "@builderx-framework/template",
-  "version": "0.0.1",
-  "description": "Create an Application using BuilderX framework",
-  "scripts": {
-    "start": "echo \"Add start script\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/builderx-framework/template"
-  },
-  "keywords": [
-    "npm",
-    "template"
-  ],
-  "author": "Shivam Singhal",
-  "license": "ISC",
-  "dependencies": {
-    "@builderx-framework/core": "^0.0.3"
-  }
+	"name": "@builderx-framework/template",
+	"version": "0.0.1",
+	"description": "Create an Application using BuilderX framework",
+	"scripts": {
+		"start": "echo \"Add start script\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/builderx-framework/template"
+	},
+	"keywords": [
+		"npm",
+		"template"
+	],
+	"author": "Shivam Singhal",
+	"license": "ISC",
+	"dependencies": {
+		"@builderx-framework/bx-app-service-web": "^0.0.1",
+		"@builderx-framework/core": "^0.0.4"
+	}
 }
