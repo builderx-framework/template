@@ -16,7 +16,6 @@
 	"author": "Shivam Singhal",
 	"license": "ISC",
 	"dependencies": {
-		"@builderx-framework/bx-app-service-web": "^0.0.1",
 		"@builderx-framework/core": "^0.0.4"
 	}
 }
